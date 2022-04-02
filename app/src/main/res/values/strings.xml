@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Student Behaviour Analysis</string>
+    <string name="teacher_login">Teacher Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="subject_details">Subject Details</string>
+    <string name="analytics">Analytics</string>
+    <string name="class_behaviour">Class Behaviour</string>
+    <string name="individual_student_behaviour">Individual Student Behaviour</string>
+    <string name="individual_attention">Individual Attention</string>
+    <string name="attendance">Attendance</string>
+    <string name="student_activity">Student Details</string>
+</resources>

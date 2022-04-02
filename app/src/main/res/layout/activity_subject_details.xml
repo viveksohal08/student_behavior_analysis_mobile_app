@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".TeacherLogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecture details"
+        android:textColor="#696969"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnClassname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/spnSubjectname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <!-- clickable, focusable and focusableInTouchMode added for using setError() method with TextView -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Select date"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/etSubjectID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter subject ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNumberOfFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter number of minutes for analysis"
+        android:inputType="number" />
+
+    <!-- style attribute is used for using inbuilt Colored Button-->
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#696969"
+        android:text="Next"
+        android:textStyle="bold" />
+
+</LinearLayout>
